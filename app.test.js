@@ -5,8 +5,20 @@ describe("Test the root path", () => {
     test("It should response the GET method", () => {
       return request(app)
         .get("/")
-        .expect(400);
-        
-    done()    
+        .expect(200);    
+    });
+  });
+describe("Test the root path", () => {
+    test("It should response the GET method", () => {
+      return request(app)
+        .get("/api/users")
+        .expect(200);    
+    });
+  });
+describe("Test the root path", () => {
+    test("It should response the GET method", () => {
+      return request(app)
+        .get("/api/compenies")
+        .expect(200);    
     });
   });
