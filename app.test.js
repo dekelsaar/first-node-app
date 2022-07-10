@@ -8,6 +8,7 @@ describe("Test the / path", () => {
         .expect(200);    
     });
   });
+
 describe("Test the /api/users path", () => {
     test("It should response the GET method", () => {
       return request(app)
@@ -15,6 +16,7 @@ describe("Test the /api/users path", () => {
         .expect(200);    
     });
   });
+
 describe("Test the /api/companies path", () => {
     test("It should response the GET method", () => {
       return request(app)
