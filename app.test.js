@@ -24,3 +24,4 @@ describe("Test the /api/companies path", () => {
         .expect(200);    
     });
   });
+ 
